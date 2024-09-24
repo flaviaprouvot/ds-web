@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>aula-03</title>
+</head>
+<body>
+   <h1>Bem vindo!</h1> 
+   <p>Este é um exemplo simples de uma pasta HTML.</p>
+   <h3>Listas não numeradas</h3>
+        <ul>
+            <li>Item 1</li>
+            <li>Item 2</li>
+            <ul>
+                <li>Item 2.1</li>
+                <ul>
+                    <li>Item 2.1.1</li>
+                </ul>
+            </ul>
+        </ul>
+
+   <h3>Listas numeradas</h3>
+        <ol>
+                <li>Primeiro</li>
+                    <ol>
+                        <li>Definição</li>
+                    </ol>
+                <li>Segundo</li>
+                    <ol>
+                        <li>Tópicos</li>
+                    </ol>
+        </ol>
+
+   <h3>Listas de definição</h3>
+        <dl>
+                <dt>HTML</dt>
+                    <dd>Hypertext Markup Language</dd>
+                <br>
+                <dt>CSS</dt>
+                    <dd>Cascading Style Sheets</dd>
+        </dl>
+
+   <h3>Elementos em nível de bloco</h3>
+        <p> Elemento em nível de bloco sempre começa em uma nova linha e os navegadores adicionam automaticamente algum espaço (uma margem) antes e depois do elemento.</p>
+        <p> Um elemento de nível de bloco sempre ocupa toda a largura disponível (estende-se para a esquerda e para a direita tanto quanto possível).</p>
+        <p> Dois elementos de bloco comumente usados ​​são: < p > e < div >.</p>
+        <p> O elemento < p > define um parágrafo em um documento HTML.</p>
+        <p> O elemento < div > define uma divisão ou seção em um documento HTML.</p>
+
+    <h3>Div - Divisão, Seção ou Bloco</h3>
+        <div style="border:solid 3px;padding-left:20px;margin-right: 20px;"> Olá, eu sou uma Div! </div>  
+
+            <div style="background-color:black;color:white;padding:20px;">
+                <h2>Iperó</h2>
+                <p>Iperó is a small town in the countryside of São Paulo, Brazil.</p>
+                <p>It is known by its rich culture and kind people.</p>
+            </div>
+
+            <p>Minha mãe tem olhos <span style="color:blue;font-weight:bold;">azuis</span> e meu pai tem os olhos <span style="color:darkolivegreen;font-weight:bold;">verde escuro</span></p>
+            <span>Minha mãe tem olhos azuis</span>
+            
+            <br><br><br>
+
+    <h3>Input - Tipos de entradas de dados</h3>
+        <label>Input do tipo Text:</label>
+        <input type="Text">
+        <br><br>
+        <label>Input do tipo Number:</label>
+        <input type="Number">
+        <br><br>
+        <label>Input do tipo Password:</label>
+        <input type="password">
+        <br><br>
+        <input type="radio" value="HTML">
+        <label>HTML</label>
+        <br>
+        <input type="checkbox" value="CSS">
+        <label>CSS</label>
+        <br><br>
+        <input type="button" value="Botão de ação"> 
+        <br><br>
+        <label>*enviar*</label><br>
+        <input type="submit" value="Botão de submit">
+
+    
+    <h3>Form - Formulário</h3>
+        <form action="/enviar" method="post">
+
+            <label>Nome de usuário:</label><br>
+                <input type="text" name="nome"><br>
+            <br>  
+
+            <label>Campo do tipo Value preenchido:</label><br>
+                <input type="text" name="value" value="Preenchido"> <br>
+            <br>
+
+            <label>Placeholder:</label><br>
+                <input type="text" name="placeholder" placeholder="placeholder"> <br>
+            <br>
+
+            <label>Campo com Required:</label><br>
+                <input type="text" name="required" required><br>
+            <br>
+
+            <label>Campo com Maxlength:</label><br>
+                <input type="text" name="maxlength" maxlength="5"><br>
+            <br>
+
+            <label>Campo com Disabled:</label><br>
+                <input type="text" name="disabled" disabled><br>
+            <br>   
+
+            <label>Campo com Readonly:</label><br>
+                <input type="text" name="readonly"value="*Informação*" readonly><br>
+            <br>
+
+            
+            <label>Campo com uma boa validação:</label><br>
+                <input type="text" name="BoaValidação" maxlength="8" required placeholder="Campo Boa Validação"><br>
+            <br>
+
+            <label>Mensagem:</label><br>
+                <textarea name="mensagem"></textarea><br>
+            <br>
+
+
+            <select name="opcoes">
+            <option>Opção 1</option>
+            <option>Opção 2</option>
+            <option>Opção 3</option>
+            <option>Opção 4</option>
+
+            </select>
+            <br><br>
+            <input type="submit">
+        
+        </form>
+        
+        <p> name: Nome do campo, utilizado no envio dos dados.</p>
+        <p>  value: Valor padrão do campo.</p>
+        <p>  placeholder: Texto exibido dentro do campo até que o usuário comece a digitar.</p>
+        <p>  required: Torna o campo obrigatório.´</p>
+        <p>  maxlength: Limita o número de caracteres inseridos.</p>
+        <p>  disabled: Desabilita o campo, impedindo interação.</p>
+        <p>  readonly: Torna o campo apenas leitura.</p>
+
+</body>
+</html>
