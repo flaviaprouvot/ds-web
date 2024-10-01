@@ -10,5 +10,5 @@
 <br>
 -Seletores Class e ID.
 <br>
--Estilização da página HTML.
+-Estilização e da página HTML com CSS.
 <br>

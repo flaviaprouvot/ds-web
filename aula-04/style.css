@@ -20,7 +20,7 @@ p{
 #minha-div{
     background-color:rgb(255, 0, 0);
     color: white;
-    border: 2px solid black;
+    border: 2px solid rgb(14, 12, 12);
     margin: 20px;
     padding: 20px;  
 }
