@@ -3,15 +3,73 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Aula-07</title>
+    <title>Aula-07/Vídeo/Menu</title>
     <style>
         img{
-            width: 100px;
-            height: 100px;
+            width: 50px;
+            height: 50px;
         }
-    </style>
+        body {
+            background-image: url('img.jpg');
+            background-size:cover;  
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+        }
+        video {
+            width: 100%;
+            height: auto;
+        }
+        .menu-top{
+            width: 100%;
+            padding: 20px;
+            padding-left: 50px;
+            background-color: rgb(170, 208, 255);
+            position:sticky;
+            top:0;
+            display: flex;
+        }
+        .container{
+            height:2000px;
+            width: 800px;
+            margin: 0 auto;
+            background-color: white;
+            border: 1px solid white;
+
+            background-image: url(rio.jpg);
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+        }
+        .video{
+            width:70%;
+            height:auto;
+            margin: 0 auto;
+            background-position: top center;
+            text-align: center;
+        }
+        .titulo-home{
+            margin-top: 6px;
+            margin-left: 4px;
+        }
+        
+    </style> 
 </head>
-<body> 
-    <img src="insta.svg">
+
+<body>
+    <div class="menu-top">
+        <img src="insta.svg">
+        <h1 class="titulo-home">Página inicial</h1>
+    </div>
+    
+    <div class="video">
+        <video class="video" src="theoffice.mp4" controls></video>   
+    </div>
+
+    <div class="container"></div>
+
+
+    
+
 </body>
+
 </html>
