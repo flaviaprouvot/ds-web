@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Acesso Liberado</title>
+    <title>Acesso <link rel="manifest" href="manifest.json">iberado</title>
 </head>
 <body>
 
