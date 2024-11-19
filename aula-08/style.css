@@ -1,0 +1,36 @@
+.menu-top{
+    width: 100%;
+    padding: 20px;
+    padding-left: 200px;
+    background-color: rgb(131, 255, 234);
+    position:sticky;
+    top:0;
+    display: flex;
+    background-position: top center;
+}
+
+div{
+   background-color: rgb(124, 160, 186); 
+   width: 1300px;
+   display: block;
+   text-align: center;
+   margin: auto;
+}
+
+h1{
+    color: rgb(145, 220, 255);
+}
+
+nav{
+    display: inline-block;
+    width: 200px;
+    margin: auto;
+    background-color: rgb(155, 167, 240);
+    text-align: center;
+    border: 1px solid rgb(45, 45, 255);
+}
+
+a{
+    display: block;
+    text-decoration: underline;
+}
