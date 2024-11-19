@@ -1,0 +1,1 @@
+Aula destinada ao estudos dos efeitos utilizando CSS
