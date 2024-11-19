@@ -1,6 +1,6 @@
 ## ds-web 
 
-- 🔭 Estudando Desenvolvimento Web 
+Estudando Desenvolvimento Web 
 
-- 💬 flavia.prouvot@gmail.com 
+flavia.prouvot@gmail.com 
 
